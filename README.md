@@ -1,7 +1,9 @@
 
 # Loan Default Prediction - Machine Learning Model
 
+
 📌 Project Overview
+
 
 This project aims to develop a machine learning model to predict loan defaults based on customer financial and demographic data. It uses advanced predictive analytics to help financial institutions assess loan risks effectively.
 📂 Project Structure
@@ -17,6 +19,8 @@ This project aims to develop a machine learning model to predict loan defaults b
 │   ├── deploy_model.py
 ├── requirements.txt       # List of dependencies
 ├── README.md              # Project documentation
+
+
 🚀 Key Features
 
 Data Preprocessing: Handles missing values, outliers, and categorical encoding.
@@ -31,6 +35,8 @@ Evaluation Metrics:
 Accuracy, Precision, Recall, F1-score
 AUC-ROC Curve, Confusion Matrix
 Model Deployment: Flask/FastAPI for real-time scoring.
+
+
 📊 Dataset Overview
 
 Feature	Description
@@ -40,6 +46,8 @@ Loan Amount	Total loan requested
 Debt-to-Income Ratio	Monthly debt payments divided by monthly income
 Employment Length	Number of years employed
 Default Status (Target)	1 = Default, 0 = No Default
+
+
 🔧 Installation & Setup
 
 Clone the repository:
@@ -51,16 +59,23 @@ Run the model training:
 python src/train_model.py
 Evaluate the model:
 python src/evaluate_model.py
+
+
 📈 Results
 
 Best Model: XGBoost with 98% AUC-ROC and low false negatives.
 Feature Importance: Credit score, debt-to-income ratio, and income are the strongest predictors.
 Deployment: The trained model can be deployed as an API for real-time predictions.
+
+
 📌 Next Steps
 
 Improve feature engineering (e.g., credit utilization ratio).
 Integrate real-time scoring API with financial applications.
 Monitor model drift for periodic retraining.
+
+
 👨‍💻 Contributors
 Nawaraj Adhikari
+
 Feel free to contribute by submitting a pull request!
